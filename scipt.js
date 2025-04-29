@@ -1,9 +1,9 @@
 const figlet = require("figlet");
 
 figlet("Thakur Sahab",function (err,data){
-    if(err){
+    if(er){
         console.log("something went wrong...");
-        console.dir(err);
+        console.dir(er);
         return;
     }
     console.log(data);
